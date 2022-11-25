@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+
+html,
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.605);
+}
+
+.navigation-bar {
+  background: #887676;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  color: #26213d;
+  transform: scale(1.25);
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #26213d;
+}
+
+.nav-links li a:hover {
+  background-color: #f8c6d4;
+  transition: 0.8s;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-video {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.605);
+  background-size: auto;
+  width: 100%;
+  height: 110%;
+  z-index: 1;
+}
+
+.main-content {
+  background: linear-gradient(rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.925)),
+    url(italian\ food\ doodle.png);
+}
+
+.banner-content {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  color: #251207;
+  width: 100%;
+  margin-top: 200px;
+  padding-top: 400px;
+  z-index: 2;
+  text-align: center;
+}
+
+.banner-content h1 {
+  display: inline-block;
+  width: 20%;
+  margin: 5% auto;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding: 1em;
+  line-height: 1.5em;
+  background: rgba(236, 255, 199, 0.45);
+}
+
+.banner-content {
+  font-weight: normal !important;
+}
+
+#one {
+  border: solid 5px hsla(0, 95%, 35%, 1);
+}
+
+.aboutus {
+  width: 720px;
+  margin: auto;
+  text-align: center;
+}
+
+.aboutus h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #b8e551;
+  font-weight: normal;
+}
+
+.aboutus p {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+.menu {
+  width: 720px;
+  margin: auto;
+  text-align: center;
+}
+
+.menu h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #b8e551;
+  font-weight: normal;
+}
+
+.menu p {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #ff7b69;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #7593f4;
+  font-weight: normal;
+}
+
+.menu-item-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  width: 50%;
+  text-align: left;
+}
+
+#menu-img {
+  transition: transform 0.2s;
+}
+
+#menu-img:hover {
+  transform: scale(1.25);
+}
+
+.menu-item-desc {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  padding: 20px;
+}
+
+.contact {
+  width: 720px;
+  margin: auto;
+  text-align: center;
+}
+
+p#contact-us {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+.input-form {
+  border: none;
+  border: solid 2px #2b3e0e;
+  color: #ffffbb;
+  background: none;
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.input-textarea {
+  width: 500px;
+  height: 300px;
+  border: none;
+  background: rgba(43, 62, 14, 0.625);
+  color: #ffffbb;
+}
+
+.submit-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  border: solid 2px #125568;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.submit-btn:hover {
+  transition: 0.5s;
+  background: rgba(7, 119, 255, 0.8);
+  color: #ffffbb;
+  cursor: pointer;
+}
+
+footer {
+  background: #ffffbb;
+  margin-bottom: auto;
+  box-sizing: border-box;
+}
